@@ -8,11 +8,11 @@
 
     <application
         android:icon="@drawable/bb"
-        android:label="@string/app_name" android:enabled="true" 
-        >
+        android:label="@string/app_name" android:enabled="true"
+        android:name=".android.DroidBeatApplication">
         
         <activity
-            android:name=".DroidBeatView"
+            android:name=".android.DroidBeatActivity"
             android:label="@string/app_name" 
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait" 
